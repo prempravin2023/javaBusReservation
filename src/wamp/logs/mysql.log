@@ -1,0 +1,455 @@
+2023-05-12 09:06:15 6652 [Note] Plugin 'FEDERATED' is disabled.
+2023-05-12 09:06:15 6652 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-05-12 09:06:15 6652 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-12 09:06:15 6652 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-05-12 09:06:15 6652 [Note] InnoDB: Not using CPU crc32 instructions
+2023-05-12 09:06:15 6652 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-05-12 09:06:15 6652 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-12 09:06:15 6652 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-05-12 09:06:16 6652 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-05-12 09:06:16 6652 [Note] InnoDB: Waiting for purge to start
+2023-05-12 09:06:16 6652 [Note] InnoDB: 5.6.12 started; log sequence number 1625977
+2023-05-12 09:06:16 6652 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 26b4eba2-f076-11ed-9833-9c5a443b593a.
+2023-05-12 09:06:16 6652 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-05-12 09:06:16 6652 [Note] IPv6 is available.
+2023-05-12 09:06:16 6652 [Note]   - '::' resolves to '::';
+2023-05-12 09:06:16 6652 [Note] Server socket created on IP: '::'.
+2023-05-12 09:06:18 6652 [Note] Event Scheduler: Loaded 0 events
+2023-05-12 09:06:18 6652 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-05-27 11:49:36 6652 [Note] wampmysqld: Normal shutdown
+
+2023-05-27 11:49:39 6652 [Note] Giving 0 client threads a chance to die gracefully
+2023-05-27 11:49:39 6652 [Note] Event Scheduler: Purging the queue. 0 events
+2023-05-27 11:49:39 6652 [Note] Shutting down slave threads
+2023-05-27 11:49:40 6652 [Note] Forcefully disconnecting 0 remaining clients
+2023-05-27 11:49:40 6652 [Note] Binlog end
+2023-05-27 11:49:44 6652 [Note] Shutting down plugin 'partition'
+2023-05-27 11:49:44 6652 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_CMP'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'INNODB_TRX'
+2023-05-27 11:49:45 6652 [Note] Shutting down plugin 'InnoDB'
+2023-05-27 11:49:45 6652 [Note] InnoDB: FTS optimize thread exiting.
+2023-05-27 11:49:45 6652 [Note] InnoDB: Starting shutdown...
+2023-05-27 11:49:48 6652 [Note] InnoDB: Shutdown completed; log sequence number 1808189
+2023-05-27 11:49:48 6652 [Note] Shutting down plugin 'BLACKHOLE'
+2023-05-27 11:49:48 6652 [Note] Shutting down plugin 'ARCHIVE'
+2023-05-27 11:49:48 6652 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-05-27 11:49:48 6652 [Note] Shutting down plugin 'MyISAM'
+2023-05-27 11:49:49 6652 [Note] Shutting down plugin 'MEMORY'
+2023-05-27 11:49:49 6652 [Note] Shutting down plugin 'CSV'
+2023-05-27 11:49:49 6652 [Note] Shutting down plugin 'sha256_password'
+2023-05-27 11:49:49 6652 [Note] Shutting down plugin 'mysql_old_password'
+2023-05-27 11:49:49 6652 [Note] Shutting down plugin 'mysql_native_password'
+2023-05-27 11:49:49 6652 [Note] Shutting down plugin 'binlog'
+2023-05-28 12:27:15 8096 [Note] Plugin 'FEDERATED' is disabled.
+2023-05-28 12:27:15 8096 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-05-28 12:27:15 8096 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-28 12:27:15 8096 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-05-28 12:27:15 8096 [Note] InnoDB: Not using CPU crc32 instructions
+2023-05-28 12:27:15 8096 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-05-28 12:27:15 8096 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-28 12:27:16 8096 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-05-28 12:27:17 8096 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-05-28 12:27:17 8096 [Note] InnoDB: Waiting for purge to start
+2023-05-28 12:27:17 8096 [Note] InnoDB: 5.6.12 started; log sequence number 1808189
+2023-05-28 12:27:18 8096 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-05-28 12:27:18 8096 [Note] IPv6 is available.
+2023-05-28 12:27:18 8096 [Note]   - '::' resolves to '::';
+2023-05-28 12:27:18 8096 [Note] Server socket created on IP: '::'.
+2023-05-28 12:27:22 8096 [Note] Event Scheduler: Loaded 0 events
+2023-05-28 12:27:22 8096 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-06-18 16:16:05 752 [Note] Plugin 'FEDERATED' is disabled.
+2023-06-18 16:16:05 752 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-06-18 16:16:05 752 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-18 16:16:05 752 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-06-18 16:16:05 752 [Note] InnoDB: Not using CPU crc32 instructions
+2023-06-18 16:16:06 752 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-06-18 16:16:06 752 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-18 16:16:06 752 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-06-18 16:16:06 752 [Note] InnoDB: The log sequence numbers 1808189 and 1808189 in ibdata files do not match the log sequence number 1838370 in the ib_logfiles!
+2023-06-18 16:16:06 752 [Note] InnoDB: Database was not shutdown normally!
+2023-06-18 16:16:06 752 [Note] InnoDB: Starting crash recovery.
+2023-06-18 16:16:06 752 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2023-06-18 16:16:07 752 [Note] InnoDB: Restoring possible half-written data pages 
+2023-06-18 16:16:07 752 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 2205, file name mysql-bin.000002
+2023-06-18 16:16:12 752 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-06-18 16:16:13 752 [Note] InnoDB: Waiting for purge to start
+2023-06-18 16:16:13 752 [Note] InnoDB: 5.6.12 started; log sequence number 1838370
+2023-06-18 16:16:13 752 [Note] Recovering after a crash using mysql-bin
+2023-06-18 16:16:13 752 [Note] Starting crash recovery...
+2023-06-18 16:16:13 752 [Note] Crash recovery finished.
+2023-06-18 16:16:16 752 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-06-18 16:16:16 752 [Note] IPv6 is available.
+2023-06-18 16:16:16 752 [Note]   - '::' resolves to '::';
+2023-06-18 16:16:16 752 [Note] Server socket created on IP: '::'.
+2023-06-18 16:16:21 752 [Note] Event Scheduler: Loaded 0 events
+2023-06-18 16:16:21 752 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-08-30 19:02:30 752 [Note] wampmysqld: Normal shutdown
+
+2023-08-30 19:02:32 752 [Note] Giving 0 client threads a chance to die gracefully
+2023-08-30 19:02:32 752 [Note] Event Scheduler: Purging the queue. 0 events
+2023-08-30 19:02:32 752 [Note] Shutting down slave threads
+2023-08-30 19:02:32 752 [Note] Forcefully disconnecting 0 remaining clients
+2023-08-30 19:02:33 752 [Note] Binlog end
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'partition'
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-08-30 19:02:33 752 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_CMP'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'INNODB_TRX'
+2023-08-30 19:02:34 752 [Note] Shutting down plugin 'InnoDB'
+2023-08-30 19:02:34 752 [Note] InnoDB: FTS optimize thread exiting.
+2023-08-30 19:02:34 752 [Note] InnoDB: Starting shutdown...
+2023-08-30 19:02:38 752 [Note] InnoDB: Shutdown completed; log sequence number 2014202
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'BLACKHOLE'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'ARCHIVE'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'MyISAM'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'MEMORY'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'CSV'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'sha256_password'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'mysql_old_password'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'mysql_native_password'
+2023-08-30 19:02:38 752 [Note] Shutting down plugin 'binlog'
+2023-08-30 19:02:38 752 [Note] wampmysqld: Shutdown complete
+
+2023-09-25 20:08:59 8768 [Note] Plugin 'FEDERATED' is disabled.
+2023-09-25 20:08:59 8768 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-09-25 20:08:59 8768 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-09-25 20:08:59 8768 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-09-25 20:08:59 8768 [Note] InnoDB: Not using CPU crc32 instructions
+2023-09-25 20:08:59 8768 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-09-25 20:08:59 8768 [Note] InnoDB: Completed initialization of buffer pool
+2023-09-25 20:09:00 8768 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-09-25 20:09:01 8768 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-09-25 20:09:01 8768 [Note] InnoDB: Waiting for purge to start
+2023-09-25 20:09:01 8768 [Note] InnoDB: 5.6.12 started; log sequence number 2014202
+2023-09-25 20:09:02 8768 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-09-25 20:09:02 8768 [Note] IPv6 is available.
+2023-09-25 20:09:02 8768 [Note]   - '::' resolves to '::';
+2023-09-25 20:09:02 8768 [Note] Server socket created on IP: '::'.
+2023-09-25 20:09:05 8768 [Note] Event Scheduler: Loaded 0 events
+2023-09-25 20:09:05 8768 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-10-29 16:42:24 8768 [Note] wampmysqld: Normal shutdown
+
+2023-10-29 16:42:26 8768 [Note] Giving 0 client threads a chance to die gracefully
+2023-10-29 16:42:26 8768 [Note] Event Scheduler: Purging the queue. 0 events
+2023-10-29 16:42:26 8768 [Note] Shutting down slave threads
+2023-10-29 16:42:26 8768 [Note] Forcefully disconnecting 0 remaining clients
+2023-10-29 16:42:27 8768 [Note] Binlog end
+2023-10-29 16:42:31 8768 [Note] Shutting down plugin 'partition'
+2023-10-29 16:42:31 8768 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-10-29 16:42:34 8768 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-10-29 16:42:37 8768 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-10-29 16:42:38 8768 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-10-29 16:42:38 8768 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-10-29 16:42:38 8768 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-10-29 16:42:39 8768 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'INNODB_CMP'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'INNODB_TRX'
+2023-10-29 16:42:40 8768 [Note] Shutting down plugin 'InnoDB'
+2023-10-29 16:42:40 8768 [Note] InnoDB: FTS optimize thread exiting.
+2023-10-29 16:42:40 8768 [Note] InnoDB: Starting shutdown...
+2023-10-29 16:42:48 8768 [Note] InnoDB: Shutdown completed; log sequence number 2760054
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'BLACKHOLE'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'ARCHIVE'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'MyISAM'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'MEMORY'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'CSV'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'sha256_password'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'mysql_old_password'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'mysql_native_password'
+2023-10-29 16:42:48 8768 [Note] Shutting down plugin 'binlog'
+2023-10-29 16:42:49 8768 [Note] wampmysqld: Shutdown complete
+
+2023-10-30 14:39:03 8940 [Note] Plugin 'FEDERATED' is disabled.
+2023-10-30 14:39:04 8940 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-10-30 14:39:04 8940 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-10-30 14:39:04 8940 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-10-30 14:39:04 8940 [Note] InnoDB: Not using CPU crc32 instructions
+2023-10-30 14:39:04 8940 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-10-30 14:39:04 8940 [Note] InnoDB: Completed initialization of buffer pool
+2023-10-30 14:39:05 8940 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-10-30 14:39:07 8940 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-10-30 14:39:08 8940 [Note] InnoDB: Waiting for purge to start
+2023-10-30 14:39:08 8940 [Note] InnoDB: 5.6.12 started; log sequence number 2760054
+2023-10-30 14:39:08 8940 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-10-30 14:39:08 8940 [Note] IPv6 is available.
+2023-10-30 14:39:08 8940 [Note]   - '::' resolves to '::';
+2023-10-30 14:39:08 8940 [Note] Server socket created on IP: '::'.
+2023-10-30 14:39:12 8940 [Note] Event Scheduler: Loaded 0 events
+2023-10-30 14:39:12 8940 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-12-27 19:58:30 8284 [Note] Plugin 'FEDERATED' is disabled.
+2023-12-27 19:58:31 8284 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-12-27 19:58:31 8284 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-12-27 19:58:31 8284 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-12-27 19:58:31 8284 [Note] InnoDB: Not using CPU crc32 instructions
+2023-12-27 19:58:31 8284 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-12-27 19:58:31 8284 [Note] InnoDB: Completed initialization of buffer pool
+2023-12-27 19:58:31 8284 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-12-27 19:58:31 8284 [Note] InnoDB: The log sequence numbers 2760054 and 2760054 in ibdata files do not match the log sequence number 3335634 in the ib_logfiles!
+2023-12-27 19:58:31 8284 [Note] InnoDB: Database was not shutdown normally!
+2023-12-27 19:58:31 8284 [Note] InnoDB: Starting crash recovery.
+2023-12-27 19:58:31 8284 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2023-12-27 19:58:34 8284 [Note] InnoDB: Restoring possible half-written data pages 
+2023-12-27 19:58:34 8284 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 60180, file name mysql-bin.000005
+2023-12-27 19:58:36 8284 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-12-27 19:58:36 8284 [Note] InnoDB: Waiting for purge to start
+2023-12-27 19:58:36 8284 [Note] InnoDB: 5.6.12 started; log sequence number 3335634
+2023-12-27 19:58:37 8284 [Note] Recovering after a crash using mysql-bin
+2023-12-27 19:58:37 8284 [Note] Starting crash recovery...
+2023-12-27 19:58:37 8284 [Note] Crash recovery finished.
+2023-12-27 19:58:37 8284 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-12-27 19:58:37 8284 [Note] IPv6 is available.
+2023-12-27 19:58:37 8284 [Note]   - '::' resolves to '::';
+2023-12-27 19:58:37 8284 [Note] Server socket created on IP: '::'.
+2023-12-27 19:58:42 8284 [Note] Event Scheduler: Loaded 0 events
+2023-12-27 19:58:42 8284 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-12-29 20:19:25 6020 [Note] Plugin 'FEDERATED' is disabled.
+2023-12-29 20:19:25 6020 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-12-29 20:19:25 6020 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-12-29 20:19:25 6020 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-12-29 20:19:25 6020 [Note] InnoDB: Not using CPU crc32 instructions
+2023-12-29 20:19:25 6020 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-12-29 20:19:25 6020 [Note] InnoDB: Completed initialization of buffer pool
+2023-12-29 20:19:25 6020 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-12-29 20:19:25 6020 [Note] InnoDB: The log sequence numbers 2760054 and 2760054 in ibdata files do not match the log sequence number 3393464 in the ib_logfiles!
+2023-12-29 20:19:25 6020 [Note] InnoDB: Database was not shutdown normally!
+2023-12-29 20:19:25 6020 [Note] InnoDB: Starting crash recovery.
+2023-12-29 20:19:25 6020 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2023-12-29 20:19:26 6020 [Note] InnoDB: Restoring possible half-written data pages 
+2023-12-29 20:19:26 6020 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 10755, file name mysql-bin.000006
+2023-12-29 20:19:27 6020 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-12-29 20:19:27 6020 [Note] InnoDB: Waiting for purge to start
+2023-12-29 20:19:27 6020 [Note] InnoDB: 5.6.12 started; log sequence number 3393464
+2023-12-29 20:19:28 6020 [Note] Recovering after a crash using mysql-bin
+2023-12-29 20:19:28 6020 [Note] Starting crash recovery...
+2023-12-29 20:19:28 6020 [Note] Crash recovery finished.
+2023-12-29 20:19:28 6020 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-12-29 20:19:28 6020 [Note] IPv6 is available.
+2023-12-29 20:19:28 6020 [Note]   - '::' resolves to '::';
+2023-12-29 20:19:28 6020 [Note] Server socket created on IP: '::'.
+2023-12-29 20:19:32 6020 [Note] Event Scheduler: Loaded 0 events
+2023-12-29 20:19:32 6020 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-01-04 10:36:22 6020 [Note] wampmysqld: Normal shutdown
+
+2024-01-04 10:36:22 6020 [Note] Giving 7 client threads a chance to die gracefully
+2024-01-04 10:36:22 6020 [Note] Event Scheduler: Purging the queue. 0 events
+2024-01-04 10:36:22 6020 [Note] Shutting down slave threads
+2024-01-04 10:36:24 6020 [Note] Forcefully disconnecting 7 remaining clients
+2024-01-04 10:36:24 6020 [Warning] wampmysqld: Forcing close of thread 192  user: 'root'
+
+2024-01-04 10:36:24 6020 [Warning] wampmysqld: Forcing close of thread 189  user: 'root'
+
+2024-01-04 10:36:24 6020 [Warning] wampmysqld: Forcing close of thread 193  user: 'root'
+
+2024-01-04 10:36:24 6020 [Warning] wampmysqld: Forcing close of thread 191  user: 'root'
+
+2024-01-04 10:36:24 6020 [Warning] wampmysqld: Forcing close of thread 190  user: 'root'
+
+2024-01-04 10:36:24 6020 [Warning] wampmysqld: Forcing close of thread 195  user: 'root'
+
+2024-01-04 10:36:24 6020 [Warning] wampmysqld: Forcing close of thread 194  user: 'root'
+
+2024-01-04 10:36:24 6020 [Note] Binlog end
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'partition'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_METRICS'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_CMP'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_LOCKS'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'INNODB_TRX'
+2024-01-04 10:36:24 6020 [Note] Shutting down plugin 'InnoDB'
+2024-01-04 10:36:24 6020 [Note] InnoDB: FTS optimize thread exiting.
+2024-01-04 10:36:24 6020 [Note] InnoDB: Starting shutdown...
+2024-01-04 10:36:26 6020 [Note] InnoDB: Shutdown completed; log sequence number 3700465
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'BLACKHOLE'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'ARCHIVE'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'MRG_MYISAM'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'MyISAM'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'MEMORY'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'CSV'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'sha256_password'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'mysql_old_password'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'mysql_native_password'
+2024-01-04 10:36:26 6020 [Note] Shutting down plugin 'binlog'
+2024-01-04 10:36:26 6020 [Note] wampmysqld: Shutdown complete
+
+2024-01-04 10:37:17 8028 [Note] Plugin 'FEDERATED' is disabled.
+2024-01-04 10:37:17 8028 [Note] InnoDB: The InnoDB memory heap is disabled
+2024-01-04 10:37:17 8028 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-04 10:37:17 8028 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-01-04 10:37:17 8028 [Note] InnoDB: Not using CPU crc32 instructions
+2024-01-04 10:37:17 8028 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2024-01-04 10:37:17 8028 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-04 10:37:17 8028 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-01-04 10:37:19 8028 [Note] InnoDB: 128 rollback segment(s) are active.
+2024-01-04 10:37:19 8028 [Note] InnoDB: Waiting for purge to start
+2024-01-04 10:37:19 8028 [Note] InnoDB: 5.6.12 started; log sequence number 3700465
+2024-01-04 10:37:19 8028 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-01-04 10:37:19 8028 [Note] IPv6 is available.
+2024-01-04 10:37:19 8028 [Note]   - '::' resolves to '::';
+2024-01-04 10:37:19 8028 [Note] Server socket created on IP: '::'.
+2024-01-04 10:37:23 8028 [Note] Event Scheduler: Loaded 0 events
+2024-01-04 10:37:23 8028 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-01-09 18:26:50 3948 [Note] Plugin 'FEDERATED' is disabled.
+2024-01-09 18:26:50 3948 [Note] InnoDB: The InnoDB memory heap is disabled
+2024-01-09 18:26:50 3948 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-01-09 18:26:50 3948 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-01-09 18:26:50 3948 [Note] InnoDB: Not using CPU crc32 instructions
+2024-01-09 18:26:50 3948 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2024-01-09 18:26:50 3948 [Note] InnoDB: Completed initialization of buffer pool
+2024-01-09 18:26:50 3948 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-01-09 18:26:50 3948 [Note] InnoDB: The log sequence numbers 3700465 and 3700465 in ibdata files do not match the log sequence number 4094746 in the ib_logfiles!
+2024-01-09 18:26:50 3948 [Note] InnoDB: Database was not shutdown normally!
+2024-01-09 18:26:50 3948 [Note] InnoDB: Starting crash recovery.
+2024-01-09 18:26:50 3948 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2024-01-09 18:26:52 3948 [Note] InnoDB: Restoring possible half-written data pages 
+2024-01-09 18:26:52 3948 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 67086, file name mysql-bin.000008
+2024-01-09 18:26:53 3948 [Note] InnoDB: 128 rollback segment(s) are active.
+2024-01-09 18:26:53 3948 [Note] InnoDB: Waiting for purge to start
+2024-01-09 18:26:54 3948 [Note] InnoDB: 5.6.12 started; log sequence number 4094746
+2024-01-09 18:26:54 3948 [Note] Recovering after a crash using mysql-bin
+2024-01-09 18:26:54 3948 [Note] Starting crash recovery...
+2024-01-09 18:26:54 3948 [Note] Crash recovery finished.
+2024-01-09 18:26:55 3948 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-01-09 18:26:55 3948 [Note] IPv6 is available.
+2024-01-09 18:26:55 3948 [Note]   - '::' resolves to '::';
+2024-01-09 18:26:55 3948 [Note] Server socket created on IP: '::'.
+2024-01-09 18:26:57 3948 [Note] Event Scheduler: Loaded 0 events
+2024-01-09 18:26:57 3948 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2024-05-18 11:12:49 7024 [Note] Plugin 'FEDERATED' is disabled.
+2024-05-18 11:12:53 7024 [Note] InnoDB: The InnoDB memory heap is disabled
+2024-05-18 11:12:53 7024 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-18 11:12:53 7024 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-05-18 11:12:53 7024 [Note] InnoDB: Not using CPU crc32 instructions
+2024-05-18 11:12:53 7024 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2024-05-18 11:12:53 7024 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-18 11:12:53 7024 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-05-18 11:12:53 7024 [Note] InnoDB: The log sequence numbers 3700465 and 3700465 in ibdata files do not match the log sequence number 4403598 in the ib_logfiles!
+2024-05-18 11:12:53 7024 [Note] InnoDB: Database was not shutdown normally!
+2024-05-18 11:12:53 7024 [Note] InnoDB: Starting crash recovery.
+2024-05-18 11:12:53 7024 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2024-05-18 11:12:56 7024 [Note] InnoDB: Restoring possible half-written data pages 
+2024-05-18 11:12:56 7024 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 74874, file name mysql-bin.000009
+2024-05-18 11:12:57 7024 [Note] InnoDB: 128 rollback segment(s) are active.
+2024-05-18 11:12:57 7024 [Note] InnoDB: Waiting for purge to start
+2024-05-18 11:12:57 7024 [Note] InnoDB: 5.6.12 started; log sequence number 4403598
+2024-05-18 11:12:57 7024 [Note] Recovering after a crash using mysql-bin
+2024-05-18 11:12:57 7024 [Note] Starting crash recovery...
+2024-05-18 11:12:57 7024 [Note] Crash recovery finished.
+2024-05-18 11:12:58 7024 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-05-18 11:12:58 7024 [Note] IPv6 is available.
+2024-05-18 11:12:58 7024 [Note]   - '::' resolves to '::';
+2024-05-18 11:12:58 7024 [Note] Server socket created on IP: '::'.
+2024-05-18 11:13:00 7024 [Note] Event Scheduler: Loaded 0 events
+2024-05-18 11:13:00 7024 [Note] wampmysqld: ready for connections.
+Version: '5.6.12-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
